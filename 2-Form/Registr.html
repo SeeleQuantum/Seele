@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Страница введения данных для регистрации на сайте.">
+    <title>Регистрация</title>
 </head>
 
 <body>
-    <h1>Регистрация</h1>
-    <h2>Уже есть аккаунт? <a href="" target="_blank">Войти</a></h2>
+    <span>Регистрация</span>
+    <p>Уже есть аккаунт? <a href="" target="_blank">Войти</a></p>
     <form action="/2-Form/" method="get">
         <div>
-            <input type="text" placeholder="Моя компания" />
+            <input autocomplete="organization" placeholder="Моя компания" />
         </div>
-        <input type="text" placeholder="Имя" />
-        <input type="text" placeholder="Фамилия" />
+        <input type="name" placeholder="Имя" />
+        <input type="additional-name" placeholder="Фамилия" />
         <div>
             <input type="text" placeholder="Email пользователя" />
         </div>
         <button>Зарегистрироваться &rarr;</button>
         <div>
             <input type="checkbox" name="agree" id="agree">
-            <label for="adree">Я прочитал и принимаю<a href="" target="_blank">Условия использования</a></label>
+            <label for="agree">Я прочитал и принимаю<a href="" target="_blank">Условия использования</a></label>
         </div>
     </form>
 </body>
