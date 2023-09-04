@@ -24,7 +24,8 @@ p {
 }
 h1 {
     color: #FFFFFF;
-    width:525px;
+    width: 100%;
+    max-width: 525px;
     text-align: center;
     font-size: 24px;
     font-style: normal;
