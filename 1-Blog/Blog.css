@@ -57,7 +57,7 @@ img {
     margin: 28px 272px 69px 272px;
 }
 article {
-    margin: 69px 365px 103px 366px;
+    margin: 69px auto 103px auto;
 }
 .text {
     width: 708px;
