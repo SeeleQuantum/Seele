@@ -7,7 +7,7 @@ input {
     height: 40px;
     border-radius: 100px;
     background: rgba(31, 41, 55, 0.60);
-    margin: 71px 180px 69px 1036px;
+    margin: 71px 180px 69px 346px;
 }
 input::placeholder {
     color: #FFF;
