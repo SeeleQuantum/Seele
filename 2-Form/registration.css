@@ -2,6 +2,7 @@
 
 body {
     background-color: #FFFEFE;
+    font-family: 'Open Sans', sans-serif;
 }
 
 span {
@@ -9,7 +10,6 @@ span {
     font-weight: 700;
     line-height: 49.03px;
     color: #333333;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .input_fields {
