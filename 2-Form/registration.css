@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body {
-    background-color: #FFFEFE;
     font-family: 'Open Sans', sans-serif;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 span {
@@ -12,9 +16,36 @@ span {
     color: #333333;
 }
 
-.input_fields {
-    color: #F5F5F5
+.input {
+    color: #D8BFD8;
+
 }
 .agre {
-    color:#EEEEEE ;
+    color:#D8BFD8 ;
+}
+
+.rrr {
+    width: 405px;
+    border: 2px solid #E6E6FA;
+    justify-content: center;
+}
+
+div {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.fff {
+    border: 2px solid #E6E6FA;
+    width: 198px;
+    justify-content: center;
+}
+
+.ttt {
+    order: 1;
+    justify-content: center;
 }
